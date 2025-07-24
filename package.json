@@ -1,0 +1,19 @@
+{
+  "name": "express-pro-structure",
+  "version": "1.0.1",
+  "description": "A package for providing production ready express structure",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "express-pro-structure": "./index.js"
+  },
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "author": "Harsh Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.8.2"
+  }
+}
